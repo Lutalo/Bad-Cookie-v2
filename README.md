@@ -33,3 +33,8 @@ WARNING:root:Requests made without an app_token will be subject to strict thrott
   'y': '37.7284080617777'}
 (myenv) elam3-Air:bad-cookie-v2 edisonlam$ 
 ```
+
+## Resources
+* https://data.sfgov.org/Public-Safety/Police-Department-Incidents/tmnf-yvry
+* https://dev.socrata.com/foundry/data.sfgov.org/cuks-n6tp
+
