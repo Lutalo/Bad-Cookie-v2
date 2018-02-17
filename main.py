@@ -22,7 +22,7 @@ client = Socrata("data.sfgov.org", None)
 # First 2000 results, returned as JSON from API / converted to Python list of
 # dictionaries by sodapy.
 #results = client.get("cuks-n6tp", limit=2000)
-results = client.get("cuks-n6tp", limit=100)
+results = client.get("cuks-n6tp", limit=10)
 
 # Convert to pandas DataFrame
 #results_df = pd.DataFrame.from_records(result_list)
@@ -30,4 +30,5 @@ results_df = pd.DataFrame.from_records(results)
 
 #print(results_df)
 pp = pprint.PrettyPrinter(indent=2)
-pp.pprint(results[0])
+#pp.pprint(results[0])
+print(results_df)
